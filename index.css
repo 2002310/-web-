@@ -1,0 +1,506 @@
+/* 初始化页面 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2f2f2;
+    font: 12px/26px Verdana,Geneva,sans-serif,"宋体";
+}
+
+a{
+    text-decoration: none;
+    color:#535353;
+}
+
+a:hover{
+    color:red;
+}
+/* 设置最外围容器的宽度 对其方式 定位方式 */
+#maxdiv{
+    width: 980px;
+    min-width: 980px;
+    margin:  0 auto;
+    position: relative;
+}
+.nav{
+    font-size: 12px;
+    overflow: hidden;
+    line-height: 34px;
+}
+#nav div{
+    display: inline-block;
+}
+#nav1 a{
+    margin-left: 1.5em;
+    display: inline-block;
+}
+#nav1{
+    float: left;
+}
+#nav2{
+    float: right;
+    overflow: hidden;
+    /* font: 12px/26px Verdana,Geneva,sans-serif,"宋体"; */
+}
+#nav2 p{
+    display: inline-block;
+    margin-right: 1.5em;
+}
+i{
+    opacity: 0.5;
+}
+
+
+/* 
+第一部分解决完毕
+*/
+
+
+#divn1{
+    border:1px solid #dadada;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.boxnet{
+    overflow: hidden;
+    margin: 0 1.5em;
+    border-bottom:3px solid #a71e32;
+}
+.logo{
+    float: left;
+    display: inline;
+    margin: 23px 0 0px 0;
+    padding-bottom: 19px;
+}
+.logo a{
+    background: url("img/img/boc2013_logo.png") no-repeat;
+    display: block;
+    width: 175px;
+    height: 49px;
+}
+.rightdiv{
+    float: right;
+    height:29px;
+    margin-top: 46px;
+    font-size: 13px;
+    width: 580px;
+    margin-right: 15px;
+}
+.phon{
+    background-position: 0 4px;
+    float: left;
+    color: #535353;
+    line-height: 29px;
+    margin: 0;
+    font-size: 14px;
+    padding-left:26px; 
+}
+.phon span{
+    padding-right: 18px;
+    color: #a71e32;
+}
+.inpt{
+    height: 27px;
+    border: 1px solid #dadada;
+    border-radius: 3px;
+    float: right;
+}
+.inpt input{
+    line-height: 27px;
+    float: left;
+    margin-left: 2px;
+    border:0;
+}
+.inpt button{
+    float: right;
+    background-color: #fff;
+    border: 0;
+    line-height: 27px;
+    margin-right: 10px;
+}
+.boxto{
+    height: 58px;
+    position: relative;
+    z-index: 10;
+    line-height: 58px;
+    font-size: 16px;
+    clear: both;
+}
+.bul li{
+    display: inline; 
+}
+.bli{
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    position: relative;
+}
+.bi{
+    float: left;
+    width: 12.5%;
+    text-align: center;
+    position: relative;
+}
+.bli a{
+    display: block;
+    height: 42px;
+    margin-top: 16px;
+    color: #535353;
+    line-height: 25px;
+}
+.cii a{
+    color: #a71e32;
+}
+.sub{
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    top: 58px;
+    width: 99.8%;
+    background: #f9f8f9;
+    border: 1px solid #dadada;
+    border-width: 0px 1px 1px 1px;
+    border-radius: 0 0 5px 5px;
+    z-index: 13;
+    box-shadow: inset 1px 0px 6px #eeeeee;
+}
+.sub i{
+    background: url("img/img/boc2013_a_hover.png") no-repeat;
+    width: 14px;
+    height: 10px;
+    position: absolute;
+    top: -7px;
+    margin-left: -6px;
+    z-index: 15;
+}
+.sub ul li img{
+    width: 190px;
+    height: 60px;
+}
+#boxdiv1 i{
+    left: 18.5%;
+}
+.s1{
+    visibility: visible;
+}
+#boxdiv2 i{
+    left: 31%;
+}
+#boxdiv3 i{
+    left: 43%;
+}
+#boxdiv4 i{
+    left: 56%;
+}
+#boxdiv5 i{
+    left: 68.5%;
+}
+#boxdiv6 i{
+    left: 81%;
+}
+#boxdiv7 i{
+    left: 93.5%;
+}
+.sub ul{
+    width: 21%;
+    padding-left: 30px;
+    list-style: none;
+    background: url("img/img/boc2013_dot_liney.gif") repeat-y right 0;
+    float: left;
+    height: 130px;
+}
+.sub ul li{
+    background: url("img/img/boc2013_dot_icon.png") no-repeat 0 -72px;
+    line-height: 32px;
+    padding-left: 16px;
+}
+.nbdiv{
+    padding: 20px;
+    line-height: 32px;
+    font-size: 14px;
+    color: #535353;
+    height: 130px;
+}
+.nbul img{
+    vertical-align: top;
+    margin: 0px 0 10px 0px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+}
+.nbul.u1{
+    background: none;
+}
+.nbul .n1{
+    background: none;
+}
+/* 第二部分 完 */
+.nb2{
+    margin-top: 15px;
+    position: relative;
+    width: 99.8%;
+    height: 379px;
+    z-index: 0;
+    background: #fff;
+    color: #898989;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin: 10px 0;
+    overflow: hidden;
+}
+.nb2div{
+    overflow: hidden;
+    width: 100%;
+    height: 288px;
+}
+.nb2div img{
+    margin: 0 auto;
+    width: 100%;
+}
+.imgia{
+    display: none;
+}
+.go{
+    display: block;
+}
+.nb2nav{
+    border-top: 1px solid #dadada;
+}
+.nb2nav .uu{
+    display: block;
+    float: left;
+    width: 18.7%;
+    border-right: 1px solid #dadada;
+    height: 70px;
+    text-align: center;
+    padding-top: 20px;
+    position: relative;
+    z-index: 10;
+    font-size: 13px;
+    cursor: pointer;
+}
+.imgi{
+    color: #000;
+}
+.imgi i{
+    background: url("img/img/boc2013_kv_arrow.png") no-repeat center top;
+    width: 13px;
+    height: 7px;
+    position: absolute;
+    display: block;
+    top: -7px;
+    left: 50%;
+    font-style: normal;
+}
+
+.nb3foot{
+    width: 24.7%;
+    padding-top: 20px;
+    float: left;
+}
+.nb2 p{
+    margin: 0 20px;
+}
+.nb2 p span{
+    font-family: arial;
+    color: #898989;
+}
+.nbfoot1{
+    background: url("img/img/boc2013_dot_linex.gif") repeat-x 0 bottom;
+    color: #d28f1e;
+    padding-bottom: 7px;
+}
+.nbfoot1 a{
+    background: url("img/img/boc2013_icon.png") no-repeat;
+    width: 26px;
+    height: 26px;
+    display: inline-block;
+    margin-left: 12px;
+    margin-bottom: -6px;
+}
+.nbfoot1 .a1{
+    background-position: 0 -328px;
+}
+.nbfoot1 .a2{
+    background-position: 0 -374px;
+}
+.nbfoot1 .a3{
+    width: 28px;
+    height: 26px;
+    background-position: 0 -653px;
+}
+
+.dengl{
+    position: absolute;
+    right: 26px;
+    top: 0px;
+    background: #fff;
+    width: 182px;
+    padding: 20px 20px 0 20px;
+    height: 168px;
+    border-radius: 3px;
+}
+.dengl a{
+    display: block;
+    width: 162px;
+    padding-left: 22px;
+    padding-bottom: 14px;
+    height: 26px;
+    line-height: 26px;
+    margin: 0 auto;
+    color: #000;
+    font: 13px "微软雅黑";
+}
+.dengl a:hover{
+    background: url("img/img/boc2013_arrow.png") no-repeat 151px -155px;
+}
+
+#affiche{
+    background: #fff;
+    border: 1px solid #dadada;
+    border-radius: 6px;
+    box-shadow: 0 2px 6px #e5e5e5;
+    margin: 0;
+    float: left;
+}
+.affichemin{
+    overflow: hidden;
+    zoom: 1;
+    border-right: 1px solid #dadada;
+    width: 277px;
+}
+.affichemin ul{
+    list-style: none;
+}
+
+#ulno1 li,#ulno2 li{
+    background: url("img/img/boc2013_dot_icon.png") no-repeat;
+    background-position: 0 -72px;
+    padding-left: 14px;
+}
+
+#ulno1 li,#ulno2 li{    
+    font-size: 11.8px;
+    color: #d28f1e;
+    clear: both;
+    margin-bottom: 1%;
+}
+
+#ulno1{
+    display: block;
+    transition: 0.5s;
+}
+
+#ulno2{
+    display: none;
+    transition: 0.5s;
+}
+.nono{
+    float: left;
+    margin-left: 10%;
+    text-align: center;
+    margin-bottom: 8px;
+    line-height: 38px;
+    font: 20px "微软雅黑";
+    opacity: 0.5;
+}
+.lii{
+    opacity: 1;
+    color: #000;
+    font-size: 22px;
+}
+.pno1{
+    font-size: 13px;
+    float: right;
+    margin-right: 30px;
+    color: #d28f1e;
+    font-family: 'Times New Roman',Times,serif;
+    opacity: 0.6;
+    
+}
+.affichemin, .affichemin2{
+    padding: 20px;
+    float: left;
+}
+
+
+.affichemin2 h2{
+    height: 38px;
+    padding: 0;
+    margin-bottom: 6px;
+    line-height: 38px;
+    font: 20px "微软雅黑";
+    color: #000;
+}
+
+.mader{
+    width: 620px;
+    position: relative;
+    height: 106px;
+    overflow: hidden;
+}
+.mad{
+    background: #fff;
+    padding: 0px 30px;
+    position: relative;
+    width: 547px;
+    height: 106px;
+    overflow: hidden;
+}
+.got{
+    overflow: hidden;
+    width: 546px;
+}
+.aa1{
+    position: absolute;
+    top:5%;
+    left: 0px;
+    background: url(img/img/boc2013_pre_next1.png) no-repeat 0 -1px;
+    width: 13px;
+    height: 42px;
+    text-indent: -9000px;
+    cursor: pointer;
+}
+.aa2{
+    right: 1px;
+    left: auto;
+    background-position: -13px -1px;
+}
+
+.gotsong{
+    overflow: hidden;
+    background: #fff;
+    width: 568px;
+}
+
+.gotul{
+    width: 1146px;
+    display: block;
+    margin-left:0px;
+    transition: 0.5s;
+    /* 改变这个元素 */
+}
+.gotul li{
+    height: 100%;
+    float: left;
+    display: block;
+    margin-right: 0px;
+    width: 71px;
+}
+
+.gotul li a{
+    display: block;
+}
+.gotul li a img{
+    display: block;
+    border: none;
+}
+.gotul li a img span{
+    line-height: 14px;
+    display: block;
+    width: 49px;
+    text-align: center;
+    margin-top: 14px;
+}
